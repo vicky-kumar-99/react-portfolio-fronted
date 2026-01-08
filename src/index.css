@@ -1,0 +1,371 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: white;
+}
+body {
+    margin:0;
+    
+    min-height: 100vh;
+    
+    padding-top: 70px;
+    
+}
+
+/* for main page  */
+
+.home-main-container {
+    width:100%;
+    max-width:800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 3rem;
+   
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home-main-details {
+    
+    max-width:400px;
+    width: 100%;
+    margin-top: 40px;
+    
+    
+
+}
+
+.picture-main {
+     height:200px;
+    width:100%;
+    max-width: 200px;
+     
+    border-radius: 45%;
+    box-shadow: 1px 4px 100px blueviolet;
+    margin-top: 40px;
+    
+    position: relative;
+     right: 0;
+     margin:auto;
+     background-image: url("./pictures/main.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+  
+}
+
+.main-page-project{
+    margin: 0;
+    margin-left: 50px;
+}
+
+.home-main1-container {
+    width:100%;
+    max-width:800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 3rem;
+   
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.home-main1-details {
+    
+    max-width:400px;
+    width: 100%;
+    
+
+
+}
+
+.picture-main1 {
+    height:200px;
+    width:100%;
+    max-width: 200px;
+     
+    border-radius: 45%;
+    box-shadow: 1px 4px 100px blueviolet;
+    margin-top: 40px;
+    
+    position: relative;
+     right: 0;
+     margin:auto;
+     background-image: url("./pictures/about.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    
+    
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+}
+
+#view-button1 {
+    padding: 2px;
+    background-color: white;
+    color: blueviolet;
+    border-radius: 4px;
+    border:2px solid blueviolet;
+    box-shadow: 1px 2px 5px blueviolet;
+    cursor: pointer;
+}
+     
+
+/* for all page.... */
+
+.home-container {
+      width:100%;
+    max-width:800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 3rem;
+   
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.home-details {
+    
+   max-width:400px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+             
+    
+}
+
+
+
+.picture-about {
+    height:200px;
+    width:100%;
+    max-width: 200px;
+     
+    border-radius: 45%;
+    box-shadow: 1px 4px 100px blueviolet;
+    margin-top: 40px;
+    
+    position: relative;
+     right: 0;
+     margin:auto;
+     background-image: url("./pictures/about.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+}
+
+.picture-project {
+    height:200px;
+    width:100%;
+    max-width: 200px;
+     
+    border-radius: 45%;
+    box-shadow: 1px 4px 100px blueviolet;
+    margin-top: 40px;
+    
+   position: relative;
+     right: 0;
+     margin:auto;
+     background-image: url("./pictures/project.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+}
+
+.picture-skill {
+    height:200px;
+    width:100%;
+    max-width: 200px;
+     
+    border-radius: 45%;
+    box-shadow: 1px 4px 100px blueviolet;
+    margin-top: 40px;
+    
+    position: relative;
+     right: 0;
+     margin:auto;
+     background-image: url("./pictures/skill.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    
+}
+
+/* contant */
+
+
+.contant-picture {
+    height:200px;
+    width:100%;
+    max-width: 200px;
+     
+    border-radius: 45%;
+    box-shadow: 1px 4px 100px blueviolet;
+    
+    
+    position: relative;
+    right: 0;
+    margin:auto;
+      background-image: url("./pictures/contact.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+   
+}
+
+#name {
+    color:blueviolet;
+}
+
+#view-button {
+    background-color: blueviolet;
+    color:white;
+    border-radius: 4px;
+    border: 2px solid blueviolet;
+    box-shadow: 1px 2px 5px blueviolet;
+    cursor:pointer;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+h2 u {
+    color:blueviolet;
+}
+
+h1 b i {
+    color: blueviolet;
+}
+
+
+
+
+
+h2 i b {
+    color: blueviolet;
+}
+
+.submit-butt {
+    background-color: blueviolet;
+    color:white;
+    border:none;
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px blueviolet;
+    cursor:pointer;
+}
+
+#username {
+    width: 100%;
+    max-width: 250px;
+    height: 25px;
+    border: 1.5px solid blueviolet;
+    border-radius: 5px;
+}
+
+#email {
+      width: 100%;
+      max-width: 250px;
+      height: 25px;
+      border: 1.5px solid blueviolet;
+      border-radius: 5px;
+}
+
+#number {
+      width: 100%;
+      max-width: 250px;
+      height: 25px;
+      border: 1.5px solid blueviolet;
+      border-radius: 5px;
+}
+
+#message {
+      width: 100%;
+     max-width: 250px;
+      height: 75px;
+      border: 1.5px solid blueviolet;
+      border-radius: 5px;
+      padding: 2px;
+}
+
+.contant-me {
+    text-align: center;
+    color:blueviolet;
+}
+
+/* view page */
+
+.viewproject-container {
+    width:100rem;
+    height:600px;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .home-main-container,
+    .home-main1-container,
+    .home-container,
+    .container-contant {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .picture,
+    .picture-about,
+    .picture-project,
+    .picture-skill {
+        margin-top: 20px;
+    }
+
+    .home-details,
+    .home-main-details,
+    .home-main1-details,
+    .contant-form {
+        width: 100%;
+    }
+
+    .button-container {
+        justify-content: center;
+    }
+}

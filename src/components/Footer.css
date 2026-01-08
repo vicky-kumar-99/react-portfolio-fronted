@@ -1,0 +1,53 @@
+:root { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+.site-footer {
+  width: 100%;
+  background-color: blueviolet;
+  color: #fff;
+  /* no fixed height — let padding control height so it adapts */
+  padding: 1rem 0; 
+  /* keep footer visually above page bottom if needed */
+  margin-top: 1.5rem;
+}
+
+.footer-inner {
+  /* center the content and limit its width so footer is full-bleed but content is constrained */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;          /* horizontal padding on small screens */
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;    /* center icons; change to space-between if you want spread */
+  flex-wrap: wrap;            /* wrap on very small screens */
+}
+
+/* link / icon styling */
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;           /* icon color */
+  
+  font-size: 1.4rem;        /* icon size */
+  transition: transform .15s ease, opacity .15s ease;
+}
+
+.link a {
+    color: white;
+}
+
+.link:hover,
+.link:focus {
+  transform: translateY(-3px);
+  opacity: 0.95;
+  outline: none;
+}
+
+/* small screen tweaks */
+@media (max-width: 480px) {
+  .footer-inner { gap: 0.9rem; }
+  .link { font-size: 1.2rem; }
+}

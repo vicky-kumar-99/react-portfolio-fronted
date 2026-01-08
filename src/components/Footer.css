@@ -11,6 +11,10 @@
   margin-top: 1.5rem;
 }
 
+footer {
+  bottom: 0;
+}
+
 .footer-inner {
   /* center the content and limit its width so footer is full-bleed but content is constrained */
   max-width: 1200px;

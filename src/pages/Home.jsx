@@ -68,14 +68,14 @@ export default function Home() {
 
             <div className="button-container">
               <div>
-                <a href="/projects">
+                <Link to="/projects">
                   <button id="view-button">View Projects</button>
-                </a>
+                </Link>
               </div>
               <div>
-                <a href="/contact">
+                <Link to="/contact">
                   <button id="view-button1">Contact</button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -73,7 +73,7 @@ export default function About() {
                         <br></br>
                         <h3> HTML, CSS, JavaScript, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        <h3>Project-Link:- <a href="https://home-booking-platform-o0wi.onrender.com">home-booking-platform.com</a></h3>
+                        <h3>Project-Link:- <Link to="https://home-booking-platform-o0wi.onrender.com">home-booking-platform.com</Link></h3>
                         <br></br>
                         <br></br>
                         <br></br>

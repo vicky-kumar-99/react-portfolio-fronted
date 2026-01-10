@@ -66,9 +66,120 @@ body {
   
 }
 
+/* qualification  */
+
+.qualification-section {
+  padding: 80px 0;
+  text-align: center;
+  background-color: white;
+  color: blueviolet;
+}
+
+.qualification-container {
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔹 Card */
+.card {
+  width: 400px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 0 25px #7f5cff;
+  transition: 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 0 40px #9f85ff;
+}
+
+/* 🔹 Arrow Buttons (Improved) */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 22px;
+  background: rgba(138, 43, 226, 0.15); /* blueviolet light */
+  border: 1px solid blueviolet;
+  color: blueviolet;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+.arrow:hover {
+  background: blueviolet;
+  color: white;
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* 🔹 Desktop position */
+.left {
+  left: 15%;
+}
+
+.right {
+  right: 15%;
+}
+
+/* 📱 Tablet & Mobile */
+@media (max-width: 768px) {
+  .left {
+    left: 5%;
+  }
+
+  .right {
+    right: 5%;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+
+/* 📱 Small Mobile */
+@media (max-width: 480px) {
+  .left {
+    left: 2%;
+  }
+
+  .right {
+    right: 2%;
+  }
+}
+
 .main-page-project{
-    margin: 0;
-    margin-left: 50px;
+    width:100%;
+    max-width:675px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 3rem;
+   
+    margin-top: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+    align-items: center;
+    
 }
 
 .home-main1-container {
@@ -250,6 +361,7 @@ body {
 
 #name {
     color:blueviolet;
+    
 }
 
 #view-button {
@@ -326,6 +438,13 @@ h2 i b {
     text-align: center;
     color:blueviolet;
 }
+
+.error {
+  color: blueviolet;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
 
 /* view page */
 

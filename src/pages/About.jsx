@@ -31,9 +31,9 @@ export default function About() {
                         <br></br>
                         <div>
                             <div>
-                                <a href="/projects">
+                                <Link to="/projects">
                                     <button id="view-button">View Projects</button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

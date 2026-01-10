@@ -29,9 +29,9 @@ export default function Skills() {
                         <br></br>
                         <div>
                             <div>
-                                <a href="/projects">
+                                <Link to="/projects">
                                     <button id="view-button">View Projects</button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

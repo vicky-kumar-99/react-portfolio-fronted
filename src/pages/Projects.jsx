@@ -29,7 +29,36 @@ export default function About() {
                          <br></br>
                         <h3>HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        
+                        <h3>Project-Link:- <Link to="https://react-portfolio-fronted.vercel.app/">portfolio.com</Link></h3>
+                        <br></br>
+
+                        <h2><u>Audio Transcript Website</u></h2>
+                         <br></br>
+                        <h3>Description:- </h3>
+                        <br></br>
+                        <h3>
+                            This website converts audio files into accurate text
+                            transcripts using speech recognition technology,
+                            helping users easily extract and understand spoken content.
+                        </h3>
+                        <br></br>
+                        <h3>Features:-</h3>
+                        <br></br>
+                        <h3>Convert audio to text</h3>
+
+                        <h3>Display transcript on screen</h3>
+
+                        <h3>Easy to use interface</h3>
+
+                        <h3>Fast and accurate output</h3>
+                        <br></br>
+                        <h3>Tech Stack:-</h3>
+                        <br></br>
+                        <h3> HTML, CSS, JavaScript, react, Node.js, Express.js, MongoDB</h3>
+                        <br></br>
+                        <h3>Project-Link:- <Link to="https://transcript-fronted.vercel.app/m">transcript.com</Link></h3>
+                        <br></br>
+
                         <h2><u>Weather App</u></h2>
                         <br></br>
                         <h3>Description:- </h3>

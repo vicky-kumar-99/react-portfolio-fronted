@@ -488,3 +488,30 @@ h2 i b {
         justify-content: center;
     }
 }
+
+.intership-picture {
+     width:100%;
+    max-width:800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 3rem;
+   
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.5rem;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5%;
+    box-shadow: 1px 2px 20px blueviolet;
+    position: relative;
+    right: 0;
+    margin:auto;
+      background-image: url("./pictures/intership.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+

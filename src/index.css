@@ -490,51 +490,38 @@ h2 i b {
 }
 
 .intership-picture {
-    
     width: 100%;
     max-width: 800px;
 
-    
-    min-height: 60vh;
+    min-height: auto;
 
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: center;
+    align-items: center;
 
     margin: 30px auto 80px auto;
     padding: 1rem;
 
-    align-items: center;
-    justify-content: center;
-
     border-radius: 20px;
     box-shadow: 1px 2px 20px blueviolet;
 
-    position: relative;
-
     background-image: url("./pictures/intership.jpeg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;   
     background-position: center;
 
     transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
-    .container {
-        min-height: 70vh;
-        gap: 1.5rem;
-        padding: 1rem;
-        border-radius: 15px;
-        box-shadow: 0 0 15px rgba(138, 43, 226, 0.6);
+    .intership-picture {
+        padding: 0.5rem;
+        border-radius: 12px;
     }
 }
 
 @media (min-width: 1024px) {
-    .container {
-        min-height: 80vh;
-        gap: 3rem;
+    .intership-picture {
         padding: 2rem;
     }
 }
-

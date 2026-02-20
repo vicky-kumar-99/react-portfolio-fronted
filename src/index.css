@@ -493,7 +493,7 @@ h2 i b {
     width: 100%;
     max-width: 800px;
 
-    min-height: auto;
+    min-height: 1000px;
 
     display: flex;
     justify-content: center;

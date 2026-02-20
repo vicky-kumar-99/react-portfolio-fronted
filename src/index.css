@@ -492,7 +492,7 @@ h2 i b {
 .intership-picture {
      width:100%;
     max-width:800px;
-    height: auto;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
      gap: 3rem;

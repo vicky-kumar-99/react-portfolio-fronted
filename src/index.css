@@ -525,3 +525,7 @@ h2 i b {
         padding: 2rem;
     }
 }
+
+.features {
+  list-style-position: inside;
+}

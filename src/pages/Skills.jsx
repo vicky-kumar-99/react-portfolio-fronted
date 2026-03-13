@@ -29,7 +29,7 @@ export default function Skills() {
 
                         <h3>Also I Know</h3>
                         <br></br>
-                        <ul>
+                        <ul className="features">
                             <li>Microsoft Excel</li>
                             <li>Microsoft Word</li>
                             <li>Microsoft PowerPoint</li>

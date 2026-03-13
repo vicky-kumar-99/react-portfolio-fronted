@@ -17,12 +17,24 @@ export default function Skills() {
                         <h2>Skills & Tools I Work With</h2> 
                         <br></br>
                         <h3>Technologies and tools I use to build web applications.</h3>
-                        <h3>- Frontend: HTML, CSS, JavaScript, React.js</h3>
-                        <h3>- Backend: Node.js, Express.js</h3>
-                        <h3>- Database: MongoDB, SQL</h3>
-                        <h3>- Other: Git, GitHub, Postman, VS Code</h3>
-                        <h3>- Core: Data Structures and Algorithms (DSA) with java, Problem Solving</h3>
-                        <h3>- UI/UX: Clean and user-centered design approach</h3> 
+                        <ul className="features">
+                            <li> Frontend: HTML, CSS, JavaScript, React.js</li>
+                            <li> Backend: Node.js, Express.js</li>
+                            <li> Database: MongoDB, SQL</li>
+                            <li> Other: Git, GitHub, Postman, VS Code</li>
+                            <li> Core: Data Structures and Algorithms (DSA) with java, Problem Solving</li>
+                            <li> UI/UX: Clean and user-centered design approach</li>
+                        </ul> 
+                        <br></br>
+
+                        <h3>Also I Know</h3>
+                        <br></br>
+                        <ul>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft Word</li>
+                            <li>Microsoft PowerPoint</li>
+                            <li>Content Writing</li>
+                        </ul>
 
                         <br></br>
                         <br></br>

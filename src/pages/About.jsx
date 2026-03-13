@@ -15,7 +15,7 @@ export default function About() {
                               scalable.</h3>
                             <br></br>
 
-                            <h3> I also have good knowledge of Data Structures and Algorithms (DSA),
+                        <h3> I also have good knowledge of Data Structures and Algorithms (DSA),
                               which helps me write efficient and optimized code. I enjoy solving
                                logical problems and improving application performance.</h3>
                                <br></br>
@@ -26,6 +26,22 @@ export default function About() {
                               real-world impactful projects.
 
                         </h3>
+                        <br></br>
+                             
+                        <h3>
+                           I also have practical knowledge of productivity tools like Microsoft Excel, 
+                           Microsoft Word and Microsoft PowerPoint. I use these tools for data management, 
+                           document formatting and creating professional presentations.
+                        </h3>
+                        <br></br>
+
+                        <h3>
+                           Along with development, I also have skills in content writing. 
+                           I can write simple and informative articles, blog posts and 
+                           technical documentation for websites.
+                        </h3>
+
+                    
                         <br></br>
                         <br></br>
                         <br></br>

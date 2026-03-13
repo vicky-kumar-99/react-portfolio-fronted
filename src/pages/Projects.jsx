@@ -19,11 +19,14 @@ export default function About() {
                         <br></br>
                         <h3>Features:- </h3>
                          <br></br>
-                        <h3>- Modern and responsive UI </h3>
+                         <ul className="features">
+                            <li> Modern and responsive UI </li>
 
-                        <h3>- Smooth navigation </h3>
+                             <li> Smooth navigation </li>
 
-                        <h3>- About, Skills, Projects, and Contact sections</h3>
+                             <li> About, Skills, Projects, and Contact sections</li>
+                         </ul>
+                        
                         <br></br>
                         <h3>Tech Stack:- </h3>
                          <br></br>
@@ -44,13 +47,15 @@ export default function About() {
                         <br></br>
                         <h3>Features:-</h3>
                         <br></br>
-                        <h3>Convert audio to text</h3>
+                        <ul className="features">
+                            <li>Convert audio to text</li>
 
-                        <h3>Display transcript on screen</h3>
+                            <li>Display transcript on screen</li>
 
-                        <h3>Easy to use interface</h3>
+                            <li>Easy to use interface</li>
 
-                        <h3>Fast and accurate output</h3>
+                            <li>Fast and accurate output</li>
+                        </ul>
                         <br></br>
                         <h3>Tech Stack:-</h3>
                         <br></br>
@@ -68,13 +73,16 @@ export default function About() {
                         <br></br>
                         <h3>Features:-</h3>
                         <br></br>
-                        <h3>- Search weather by city name</h3>
+                        <ul className="features">
+                            <li> Search weather by city name</li>
 
-                        <h3>- Temperature, humidity, and condition display</h3>
+                            <li> Temperature, humidity, and condition display</li>
 
-                        <h3>- Clean and minimal UI</h3>
-
+                            <li> Clean and minimal UI</li>
+                        </ul>
+                        <br></br>
                         <h3>Tech Stack:- </h3>
+                        <br></br>
                         <h3> HTML, CSS, JavaScript</h3>
 
                         <br></br>
@@ -90,13 +98,15 @@ export default function About() {
                         <br></br>
                         <h3>Features:-</h3>
                         <br></br>
-                        <h3>- User signup/login and authentication</h3>
+                        <ul className="features">
+                            <li> User signup/login and authentication</li>
 
-                        <h3>- Browse room listings with details and images</h3>
+                            <li> Browse room listings with details and images</li>
 
-                        <h3>- Booking flow with date selection and confirmation</h3>
+                            <li> Booking flow with date selection and confirmation</li>
 
-                        <h3>- Basic input validation and error handling</h3>
+                            <li> Basic input validation and error handling</li>
+                        </ul>
                         <br></br>
                         <h3>Tech Stack:-</h3>
                         <br></br>

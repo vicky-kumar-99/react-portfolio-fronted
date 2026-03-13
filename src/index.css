@@ -526,12 +526,9 @@ h2 i b {
     }
 }
 
-.features {
-  list-style-position: inside;
-}
-
 ul {
-  padding-left: 20px;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 li {

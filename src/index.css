@@ -528,13 +528,7 @@ h2 i b {
 
 @media (max-width: 600px) {
   ul {
-    padding-left: 20px;
-    margin-left: 0;
-    list-style-position: outside;
-  }
-
-  li {
-    margin-left: 0;
+    list-style: none;
     padding-left: 0;
   }
 }

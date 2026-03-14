@@ -526,11 +526,13 @@ h2 i b {
     }
 }
 
+@media(max-width: 600px) {
 ul {
+  padding-left: 10;
   list-style-position: inside;
-  padding-left: 0;
 }
 
 li {
   margin-bottom: 5px;
+}
 }

@@ -17,6 +17,7 @@ export default function Skills() {
                         <h2>Skills & Tools I Work With</h2> 
                         <br></br>
                         <h3>Technologies and tools I use to build web applications.</h3>
+                        <br></br>
                         <ul className="features">
                             <li> Frontend: HTML, CSS, JavaScript, React.js</li>
                             <li> Backend: Node.js, Express.js</li>

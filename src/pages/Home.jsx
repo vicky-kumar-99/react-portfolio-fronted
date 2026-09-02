@@ -110,13 +110,16 @@ export default function Home() {
            
             <section className="home-section">
                 <div class="main-page-project"><h1><b><i>PROJECTS :-</i></b></h1></div>
-                <div className="home-main1-container">
-                    
-                    <div className="picture-main1">
 
-                    </div>
-                    <br></br>
-                    <div className="home-main1-details">
+                 {/* main class */}
+
+                <div className="home-main1-container"> 
+                    
+                    {/* <div className="picture-main1">
+
+                    </div> */}
+                  
+                    <div className="portfolio">
                          
                          <br></br>
                          <h2><u>Portfolio Website</u></h2>
@@ -142,9 +145,17 @@ export default function Home() {
                          <br></br>
                         <h3>Html, css, javascript, React.js, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        <h3>Project-Link:- <Link to="https://react-portfolio-fronted.vercel.app/">portfolio.com</Link></h3>
+                        <div id="project-links">
+                          <h3>Project Link:</h3>
+                          <Link to="https://react-portfolio-fronted.vercel.app/">
+                          <button>Visit Portfolio</button>
+                          </Link>
+                        </div>
                         <br></br>
-
+                      
+                      </div>
+                      
+                      <div className="audio">
                         <h2><u>Audio Transcript Website</u></h2>
                          <br></br>
                         <h3>Description:- </h3>
@@ -171,9 +182,19 @@ export default function Home() {
                         <br></br>
                         <h3> HTML, CSS, JavaScript, react, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        <h3>Project-Link:- <Link to="https://transcript-fronted.vercel.app/m">transcript.com</Link></h3>
+
+                        <div class="project-links">
+                          <h3>Project Link:</h3>
+                          <Link to="https://transcript-fronted.vercel.app/m">
+                          <button>Visit Portfolio</button>
+                          </Link>
+                        </div>
+                        
                         <br></br>
                         
+                      </div>
+
+                      <div className="weather">
                         <h2><u>Weather App</u></h2>
                         <br></br>
                         <h3>Description:- </h3>
@@ -197,6 +218,9 @@ export default function Home() {
 
                         <br></br>
 
+                      </div>
+                      
+                      <div className="homebooking">
                         <h2><u>Home Booking Platform</u></h2>
 
                         <h3>Description:- </h3>
@@ -222,10 +246,17 @@ export default function Home() {
                         <br></br>
                         <h3> HTML, CSS, JavaScript, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                         <h3>Project-Link:- <Link to="https://home-booking-platform-o0wi.onrender.com">home-booking-platform.com</Link></h3>
+
+                        <div class="project-links">
+                          <h3>Project Link:</h3>
+                          <Link to="https://home-booking-platform-o0wi.onrender.com">
+                          <button>Visit Portfolio</button>
+                          </Link>
+                        </div>
+                         
                         <br></br>
-                        
-                    </div>
+                      </div> 
+                  
                     
                 </div>
            </section>

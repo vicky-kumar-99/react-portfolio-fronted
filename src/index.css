@@ -557,8 +557,9 @@ h2 i b {
     
 }
 
-.project-links {
-    width: 350px;
+.project-parts {
+    max-width:350px;
     height: auto;
-    color:2px solid yellow;
+     border-radius: 10px;
+    box-shadow: 1px 2px 20px blueviolet;
 }

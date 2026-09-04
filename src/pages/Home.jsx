@@ -119,7 +119,7 @@ export default function Home() {
 
                     </div> */}
                   
-                    <div className="portfolio">
+                    <div id="portfolio" className="project-parts">
                          
                          <br></br>
                          <h2><u>Portfolio Website</u></h2>
@@ -155,7 +155,7 @@ export default function Home() {
                       
                       </div>
                       
-                      <div className="audio">
+                      <div id="audio" className="project-parts">
                         <h2><u>Audio Transcript Website</u></h2>
                          <br></br>
                         <h3>Description:- </h3>
@@ -194,7 +194,7 @@ export default function Home() {
                         
                       </div>
 
-                      <div className="weather">
+                      <div id="weather" className="project-parts">
                         <h2><u>Weather App</u></h2>
                         <br></br>
                         <h3>Description:- </h3>
@@ -220,7 +220,7 @@ export default function Home() {
 
                       </div>
                       
-                      <div className="homebooking">
+                      <div id="homebooking" className="project-parts">
                         <h2><u>Home Booking Platform</u></h2>
 
                         <h3>Description:- </h3>

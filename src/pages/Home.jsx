@@ -148,7 +148,7 @@ export default function Home() {
                         <div class="project-links">
                           <div>
                              <Link to="https://react-portfolio-fronted.vercel.app/">
-                             <button class="pro-link-class">Visit Portfolio</button>
+                             <button class="pro-link-class">Visit Project</button>
                              </Link>
                           </div>
                           
@@ -200,7 +200,7 @@ export default function Home() {
                         <div class="project-links">
                            <div>
                                <Link to="https://transcript-fronted.vercel.app/m">
-                               <button class="pro-link-class">Visit Portfolio</button>
+                               <button class="pro-link-class">Visit Project</button>
                                </Link>
                            </div>
                            
@@ -249,7 +249,7 @@ export default function Home() {
                         <div class="project-links">
                            <div>
                                <Link to="#">
-                               <button class="pro-link-class">Visit Portfolio</button>
+                               <button class="pro-link-class">Visit Project</button>
                                </Link>
                            </div>
                            
@@ -300,7 +300,7 @@ export default function Home() {
                             <div>
                                 
                                 <Link to="https://home-booking-platform-o0wi.onrender.com">
-                                <button class="pro-link-class">Visit Portfolio</button>
+                                <button class="pro-link-class">Visit Project</button>
                                 </Link>
                             </div>
                             <div>

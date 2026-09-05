@@ -199,7 +199,7 @@ export default function Home() {
 
                         <div class="project-links">
                            <div>
-                               <Link to="https://transcript-fronted.vercel.app/m">
+                               <Link to="https://transcript-fronted.vercel.app/">
                                <button class="pro-link-class">Visit Project</button>
                                </Link>
                            </div>

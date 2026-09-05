@@ -554,7 +554,7 @@ h2 i b {
     align-items: center;
     justify-content: center;
     
-    border:2px solid red;
+    
     
 }
 
@@ -573,6 +573,10 @@ h2 i b {
 
     margin:10px;
     padding:5px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
 }
 

@@ -109,7 +109,7 @@ export default function Home() {
            <br></br>
            
             <section className="home-section">
-                <div class="main-page-project"><h1><b><i>-: PROJECTS :-</i></b></h1></div>
+                <div class="main-page-project" style={{textAlign:'center'}}><h1><b><i>-: PROJECTS :-</i></b></h1></div>
 
                  {/* main class */}
 
@@ -298,7 +298,7 @@ export default function Home() {
 
                         <div class="project-links">
                             <div>
-                                <h3>Project Link:</h3>
+                                
                                 <Link to="https://home-booking-platform-o0wi.onrender.com">
                                 <button class="pro-link-class">Visit Portfolio</button>
                                 </Link>

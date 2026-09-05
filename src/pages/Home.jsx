@@ -122,7 +122,7 @@ export default function Home() {
                     <div id="portfolio" className="project-parts">
                          
                          <br></br>
-                         <h2 style="text-align:center;"><u>Portfolio Website</u></h2>
+                         <h2 style={{textAlign:'center'}}><u>Portfolio Website</u></h2>
                           <br></br>
                          <h3>Description :- </h3>
                          <br></br>
@@ -170,7 +170,7 @@ export default function Home() {
                       
                       <div id="audio" className="project-parts">
                         <br></br>
-                        <h2 style="text-align:center;"><u>Audio Transcript Website</u></h2>
+                        <h2 style={{textAlign:'center'}}><u>Audio Transcript Website</u></h2>
                          <br></br>
                         <h3>Description:- </h3>
                         <br></br>
@@ -223,7 +223,7 @@ export default function Home() {
 
                       <div id="weather" className="project-parts">
                         <br></br>
-                        <h2 style="text-align:center;"><u>Weather App</u></h2>
+                        <h2 style={{textAlign:'center'}}><u>Weather App</u></h2>
                         <br></br>
                         <h3>Description:- </h3>
                         <br></br>
@@ -270,7 +270,7 @@ export default function Home() {
                       
                       <div id="homebooking" className="project-parts">
                         <br></br>
-                        <h2 style="text-align:center;"><u>Home Booking Platform</u></h2>
+                        <h2 style={{textAlign:'center'}}><u>Home Booking Platform</u></h2>
                         <br></br>
                         <h3>Description:- </h3>
                         <br></br>

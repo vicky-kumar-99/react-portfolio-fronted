@@ -181,6 +181,7 @@ body {
     padding: 0 1.5rem;
     align-items: center;
     text-align: center;
+    border:2px solid red;
     
 }
 

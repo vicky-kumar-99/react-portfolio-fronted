@@ -109,7 +109,7 @@ export default function Home() {
            <br></br>
            
             <section className="home-section">
-                <div class="main-page-project"><h1><b><i>PROJECTS :-</i></b></h1></div>
+                <div class="main-page-project"><h1><b><i>-: PROJECTS :-</i></b></h1></div>
 
                  {/* main class */}
 
@@ -122,7 +122,7 @@ export default function Home() {
                     <div id="portfolio" className="project-parts">
                          
                          <br></br>
-                         <h2><u>Portfolio Website</u></h2>
+                         <h2 style="text-align:center;"><u>Portfolio Website</u></h2>
                           <br></br>
                          <h3>Description :- </h3>
                          <br></br>
@@ -145,18 +145,32 @@ export default function Home() {
                          <br></br>
                         <h3>Html, css, javascript, React.js, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        <div id="project-links">
-                          <h3>Project Link:</h3>
-                          <Link to="https://react-portfolio-fronted.vercel.app/">
-                          <button>Visit Portfolio</button>
-                          </Link>
+                        <div class="project-links">
+                          <div>
+                             <Link to="https://react-portfolio-fronted.vercel.app/">
+                             <button class="pro-link-class">Visit Portfolio</button>
+                             </Link>
+                          </div>
+                          
+                          <div>
+                                  <Link to="https://github.com/vicky-kumar-99/react-portfolio-fronted.git">
+                                  <button class="pro-link-class">Github Fronted Link</button>
+                                  </Link>
+                          </div>
+                          <div>
+                                  <Link to="https://github.com/vicky-kumar-99/react-portfolio.git">
+                                  <button class="pro-link-class">Github Backend Link</button>
+                                  </Link>
+                          </div>
+                           
                         </div>
                         <br></br>
                       
                       </div>
                       
                       <div id="audio" className="project-parts">
-                        <h2><u>Audio Transcript Website</u></h2>
+                        <br></br>
+                        <h2 style="text-align:center;"><u>Audio Transcript Website</u></h2>
                          <br></br>
                         <h3>Description:- </h3>
                         <br></br>
@@ -184,10 +198,23 @@ export default function Home() {
                         <br></br>
 
                         <div class="project-links">
-                          <h3>Project Link:</h3>
-                          <Link to="https://transcript-fronted.vercel.app/m">
-                          <button>Visit Portfolio</button>
-                          </Link>
+                           <div>
+                               <Link to="https://transcript-fronted.vercel.app/m">
+                               <button class="pro-link-class">Visit Portfolio</button>
+                               </Link>
+                           </div>
+                           
+                            <div>
+                                  <Link to="https://github.com/vicky-kumar-99/transcript-fronted.git">
+                                  <button class="pro-link-class">Github Fronted Link</button>
+                                  </Link>
+                            </div>
+                            <div>
+                                  <Link to="https://github.com/vicky-kumar-99/transcript-backend.git">
+                                  <button class="pro-link-class">Github Backend Link</button>
+                                  </Link>
+                            </div>
+                          
                         </div>
                         
                         <br></br>
@@ -195,7 +222,8 @@ export default function Home() {
                       </div>
 
                       <div id="weather" className="project-parts">
-                        <h2><u>Weather App</u></h2>
+                        <br></br>
+                        <h2 style="text-align:center;"><u>Weather App</u></h2>
                         <br></br>
                         <h3>Description:- </h3>
                         <br></br>
@@ -218,11 +246,32 @@ export default function Home() {
 
                         <br></br>
 
+                        <div class="project-links">
+                           <div>
+                               <Link to="#">
+                               <button class="pro-link-class">Visit Portfolio</button>
+                               </Link>
+                           </div>
+                           
+                          <div>
+                                  <Link to="#">
+                                  <button class="pro-link-class">Github Fronted Link</button>
+                                  </Link>
+                          </div>
+                          <div>
+                                  <Link to="#">
+                                  <button class="pro-link-class">Github Backend Link</button>
+                                  </Link>
+                          </div>
+                           
+                        </div>
+
                       </div>
                       
                       <div id="homebooking" className="project-parts">
-                        <h2><u>Home Booking Platform</u></h2>
-
+                        <br></br>
+                        <h2 style="text-align:center;"><u>Home Booking Platform</u></h2>
+                        <br></br>
                         <h3>Description:- </h3>
                         <br></br>
                         <h3>A web-based platform that allows users to browse 
@@ -248,10 +297,20 @@ export default function Home() {
                         <br></br>
 
                         <div class="project-links">
-                          <h3>Project Link:</h3>
-                          <Link to="https://home-booking-platform-o0wi.onrender.com">
-                          <button>Visit Portfolio</button>
-                          </Link>
+                            <div>
+                                <h3>Project Link:</h3>
+                                <Link to="https://home-booking-platform-o0wi.onrender.com">
+                                <button class="pro-link-class">Visit Portfolio</button>
+                                </Link>
+                            </div>
+                            <div>
+                               <div>
+                                  <Link to="https://github.com/vicky-kumar-99/home-booking-platform.git">
+                                  <button class="pro-link-class">Github Link</button>
+                                  </Link>
+                               </div>
+                               
+                           </div>
                         </div>
                          
                         <br></br>

@@ -574,7 +574,8 @@ h2 i b {
     margin:10px;
     padding:5px;
 
-    align-items: center;
+    text-align: center;
+    color:2px solid red;
 
 }
 

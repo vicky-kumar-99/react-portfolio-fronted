@@ -168,7 +168,8 @@ body {
 .main-page-project{
     width:100%;
     max-width:675px;
-    height: auto;
+    height: 100%;
+    max-height: 25px;
     display: flex;
     flex-wrap: wrap;
      gap: 3rem;
@@ -575,7 +576,7 @@ h2 i b {
     padding:5px;
 
     text-align: center;
-    color:2px solid red;
+    
 
 }
 

@@ -206,9 +206,7 @@ export default function About() {
                                
                            </div>
                         </div>
-                    <div className="picture-project">
-
-                    </div>
+                    
                     </div>
                 </div>
            </section>

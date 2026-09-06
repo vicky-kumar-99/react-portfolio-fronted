@@ -3,12 +3,20 @@ export default function About() {
     return (
        <main>
            <section className="home-section">
-                <div className="home-container">
-                    <div className="home-details">
-                         <h1><b><i>PROJECTS</i></b></h1>
+                <div class="main-page-project">-: PROJECTS :-</div>
+
+                 {/* main class */}
+
+                <div className="home-main1-container"> 
+                    
+                    {/* <div className="picture-main1">
+
+                    </div> */}
+                  
+                    <div id="portfolio" className="project-parts">
+                         
                          <br></br>
-                         <br></br>
-                         <h2><u>Portfolio Website</u></h2>
+                         <h2 style={{textAlign:'center'}}><u>Portfolio Website</u></h2>
                           <br></br>
                          <h3>Description :- </h3>
                          <br></br>
@@ -19,23 +27,44 @@ export default function About() {
                         <br></br>
                         <h3>Features:- </h3>
                          <br></br>
-                         <ul className="features">
+                        <ul>
                             <li> Modern and responsive UI </li>
+                             
+                            <li> Smooth navigation </li>
 
-                             <li> Smooth navigation </li>
-
-                             <li> About, Skills, Projects, and Contact sections</li>
-                         </ul>
-                        
+                            <li> About, Skills, Projects, and Contact sections</li>
+                        </ul>
                         <br></br>
                         <h3>Tech Stack:- </h3>
                          <br></br>
-                        <h3>HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB</h3>
+                        <h3>Html, css, javascript, React.js, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        <h3>Project-Link:- <Link to="https://react-portfolio-fronted.vercel.app/">portfolio.com</Link></h3>
+                        <div class="project-links">
+                          <div>
+                             <Link to="https://react-portfolio-fronted.vercel.app/">
+                             <button class="pro-link-class">Visit Project</button>
+                             </Link>
+                          </div>
+                          
+                          <div>
+                                  <Link to="https://github.com/vicky-kumar-99/react-portfolio-fronted.git">
+                                  <button class="pro-link-class">Github Fronted Link</button>
+                                  </Link>
+                          </div>
+                          <div>
+                                  <Link to="https://github.com/vicky-kumar-99/react-portfolio.git">
+                                  <button class="pro-link-class">Github Backend Link</button>
+                                  </Link>
+                          </div>
+                           
+                        </div>
                         <br></br>
-
-                        <h2><u>Audio Transcript Website</u></h2>
+                      
+                      </div>
+                      
+                      <div id="audio" className="project-parts">
+                        <br></br>
+                        <h2 style={{textAlign:'center'}}><u>Audio Transcript Website</u></h2>
                          <br></br>
                         <h3>Description:- </h3>
                         <br></br>
@@ -47,7 +76,7 @@ export default function About() {
                         <br></br>
                         <h3>Features:-</h3>
                         <br></br>
-                        <ul className="features">
+                        <ul>
                             <li>Convert audio to text</li>
 
                             <li>Display transcript on screen</li>
@@ -61,10 +90,34 @@ export default function About() {
                         <br></br>
                         <h3> HTML, CSS, JavaScript, react, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        <h3>Project-Link:- <Link to="https://transcript-fronted.vercel.app/m">transcript.com</Link></h3>
-                        <br></br>
 
-                        <h2><u>Weather App</u></h2>
+                        <div class="project-links">
+                           <div>
+                               <Link to="https://transcript-fronted.vercel.app/">
+                               <button class="pro-link-class">Visit Project</button>
+                               </Link>
+                           </div>
+                           
+                            <div>
+                                  <Link to="https://github.com/vicky-kumar-99/transcript-fronted.git">
+                                  <button class="pro-link-class">Github Fronted Link</button>
+                                  </Link>
+                            </div>
+                            <div>
+                                  <Link to="https://github.com/vicky-kumar-99/transcript-backend.git">
+                                  <button class="pro-link-class">Github Backend Link</button>
+                                  </Link>
+                            </div>
+                          
+                        </div>
+                        
+                        <br></br>
+                        
+                      </div>
+
+                      <div id="weather" className="project-parts">
+                        <br></br>
+                        <h2 style={{textAlign:'center'}}><u>Weather App</u></h2>
                         <br></br>
                         <h3>Description:- </h3>
                         <br></br>
@@ -73,12 +126,12 @@ export default function About() {
                         <br></br>
                         <h3>Features:-</h3>
                         <br></br>
-                        <ul className="features">
-                            <li> Search weather by city name</li>
+                        <ul>
+                             <li> Search weather by city name</li>
 
-                            <li> Temperature, humidity, and condition display</li>
+                             <li> Temperature, humidity, and condition display</li>
 
-                            <li> Clean and minimal UI</li>
+                             <li> Clean and minimal UI</li>
                         </ul>
                         <br></br>
                         <h3>Tech Stack:- </h3>
@@ -87,8 +140,32 @@ export default function About() {
 
                         <br></br>
 
-                        <h2><u>Home Booking Platform</u></h2>
-                         <br></br>
+                        <div class="project-links">
+                           <div>
+                               <Link to="#">
+                               <button class="pro-link-class">Visit Project</button>
+                               </Link>
+                           </div>
+                           
+                          <div>
+                                  <Link to="#">
+                                  <button class="pro-link-class">Github Fronted Link</button>
+                                  </Link>
+                          </div>
+                          <div>
+                                  <Link to="#">
+                                  <button class="pro-link-class">Github Backend Link</button>
+                                  </Link>
+                          </div>
+                           
+                        </div>
+
+                      </div>
+                      
+                      <div id="homebooking" className="project-parts">
+                        <br></br>
+                        <h2 style={{textAlign:'center'}}><u>Home Booking Platform</u></h2>
+                        <br></br>
                         <h3>Description:- </h3>
                         <br></br>
                         <h3>A web-based platform that allows users to browse 
@@ -98,7 +175,7 @@ export default function About() {
                         <br></br>
                         <h3>Features:-</h3>
                         <br></br>
-                        <ul className="features">
+                        <ul>
                             <li> User signup/login and authentication</li>
 
                             <li> Browse room listings with details and images</li>
@@ -112,14 +189,26 @@ export default function About() {
                         <br></br>
                         <h3> HTML, CSS, JavaScript, Node.js, Express.js, MongoDB</h3>
                         <br></br>
-                        <h3>Project-Link:- <Link to="https://home-booking-platform-o0wi.onrender.com">home-booking-platform.com</Link></h3>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        
-                    </div>
+
+                        <div class="project-links">
+                            <div>
+                                
+                                <Link to="https://home-booking-platform-o0wi.onrender.com">
+                                <button class="pro-link-class">Visit Project</button>
+                                </Link>
+                            </div>
+                            <div>
+                               <div>
+                                  <Link to="https://github.com/vicky-kumar-99/home-booking-platform.git">
+                                  <button class="pro-link-class">Github Link</button>
+                                  </Link>
+                               </div>
+                               
+                           </div>
+                        </div>
                     <div className="picture-project">
 
+                    </div>
                     </div>
                 </div>
            </section>
